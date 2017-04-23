@@ -1,9 +1,0 @@
-{% macro alert(class="", text="", close="true") %}
-  <div class="alert alert-{{ class }}">
-{% if close=='true' %}
- <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
-{% endif %}
-
-  {{ text | safe }}
-</div>
-{% endmacro %}
