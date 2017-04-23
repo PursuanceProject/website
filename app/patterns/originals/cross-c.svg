@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     width="36px" height="36px" viewBox="-7 -7 36 36" enable-background="new -7 -7 36 36" xml:space="preserve">
+<path fill="#FF0000" d="M5,2H2v3h-6V2h-3v-6h3v-3h6v3h3V2z M23,20h-3v3h-6v-3h-3v-6h3v-3h6v3h3V20z"/>
+<text transform="matrix(1 0 0 1 0 -7.2285)" font-family="'ArialMT'" font-size="12">cross-c</text>
+</svg>

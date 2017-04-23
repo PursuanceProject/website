@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="36px" height="36px" viewBox="0 0 36 36" enable-background="new 0 0 36 36" xml:space="preserve">
+<path fill="#FF0000" d="M18,29c-6.076,0-11-4.926-11-11c0-6.076,4.924-11,11-11c6.074,0,11,4.924,11,11C29,24.074,24.074,29,18,29z"
+	/>
+<path fill="#FF0000" d="M0,11c-6.076,0-11-4.926-11-11c0-6.076,4.924-11,11-11c6.074,0,11,4.924,11,11C11,6.074,6.074,11,0,11z"/>
+<path fill="#FF0000" d="M0,47c-6.076,0-11-4.926-11-11c0-6.075,4.924-11,11-11c6.074,0,11,4.925,11,11C11,42.074,6.074,47,0,47z"/>
+<path fill="#FF0000" d="M36,11c-6.075,0-11-4.926-11-11c0-6.076,4.925-11,11-11c6.074,0,11,4.924,11,11C47,6.074,42.074,11,36,11z"
+	/>
+<path fill="#FF0000" d="M36,47c-6.075,0-11-4.926-11-11c0-6.075,4.925-11,11-11c6.074,0,11,4.925,11,11C47,42.074,42.074,47,36,47z"
+	/>
+<text transform="matrix(1 0 0 1 0 -7.2285)" font-family="'ArialMT'" font-size="12">dots-c</text>
+<path fill="#00FF00" d="M36,25V11c-6.075,0-11-4.926-11-11H11c0,6.074-4.926,11-11,11v14c6.074,0,11,4.925,11,11h14
+	C25,29.925,29.925,25,36,25z M18,29c-6.076,0-11-4.926-11-11c0-6.076,4.924-11,11-11c6.074,0,11,4.924,11,11
+	C29,24.074,24.074,29,18,29z"/>
+</svg>

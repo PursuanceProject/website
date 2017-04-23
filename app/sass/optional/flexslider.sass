@@ -1,0 +1,188 @@
+.flex-container a:hover, .flex-slider a:hover, .flex-container a:focus, .flex-slider a:focus
+  outline: none
+
+.slides
+  +reset(all)
+  +reset(list)
+  > li
+    margin: 0
+    padding: 0
+    list-style: none
+
+.flex-control-nav, .flex-direction-nav
+  +reset(all)
+  +reset(list)
+
+.flex-pauseplay span
+  text-transform: capitalize
+
+.flexslider
+  +reset(all)
+  .slides
+    > li
+      display: none
+      -webkit-backface-visibility: hidden
+    img
+      width: 100%
+      display: block
+    &:after
+      content: "\0020"
+      display: block
+      clear: both
+      visibility: hidden
+      line-height: 0
+      height: 0
+
+html[xmlns] .flexslider .slides
+  display: block
+
+* html .flexslider .slides
+  height: 1%
+
+.no-js .flexslider .slides > li:first-child
+  display: block
+
+.flexslider
+  position: relative
+  zoom: 1
+  .slides
+    zoom: 1
+    img
+      height: auto
+
+.flex-viewport
+  max-height: 2000px
+  +transition
+
+.loading .flex-viewport
+  max-height: 300px
+
+.carousel li
+  margin-right: 5px
+
+.flex-direction-nav
+  *height: 0
+  a
+    text-decoration: none
+    display: block
+    width: 40px
+    height: 40px
+    margin: -20px 0 0
+    position: absolute
+    top: 50%
+    z-index: 10
+    overflow: hidden
+    opacity: 0
+    cursor: pointer
+    color: $color-text
+    +transition
+    &:hover
+      color: $color-text
+    &:before
+      font-family: FontAwesome
+      font-size: 30px
+      display: inline-block
+      content: $fa-var-angle-left
+    &.flex-next:before
+      content: $fa-var-angle-right
+  .flex-prev
+    left: -50px
+  .flex-next
+    right: -50px
+    text-align: right
+
+.flexslider:hover .flex-direction-nav
+  .flex-prev
+    +opacity(30)
+    left: 10px
+    &:hover
+      +opacity(100)
+  .flex-next
+    +opacity(30)
+    right: 10px
+    &:hover
+      +opacity(100)
+
+.flex-direction-nav .flex-disabled
+  opacity: 0 !important
+  filter: alpha(opacity = 0)
+  cursor: default
+
+.flex-pauseplay a
+  display: block
+  width: 20px
+  height: 20px
+  position: absolute
+  bottom: 5px
+  left: 10px
+  opacity: 0.8
+  z-index: 10
+  overflow: hidden
+  cursor: pointer
+  color: #000
+  &:before
+    font-family: FontAwesome
+    font-size: 20px
+    display: inline-block
+    content: '\f004'
+  &:hover
+    +opacity(100)
+  &.flex-play:before
+    content: '\f003'
+
+.flex-control-nav
+  width: 100%
+  text-align: center
+  li
+    margin: 0 6px
+    display: inline-block
+    zoom: 1
+    *display: inline
+
+.flex-control-paging li
+  vertical-align: middle
+  margin: 0
+  a
+    +size(square, 10px)
+    display: block
+    margin: 3px
+    background-color: $color-text
+    cursor: pointer
+    text-indent: -9999px
+    +radius(50%)
+    +opacity(20)
+    +transition
+    &:hover, &.flex-active
+      cursor: default
+      +opacity(100)
+
+.flex-control-thumbs
+  margin: 5px 0 0
+  position: static
+  overflow: hidden
+  li
+    width: 25%
+    float: left
+    margin: 0
+  img
+    width: 100%
+    height: auto
+    display: block
+    +opacity(70)
+    cursor: pointer
+    +transition
+    &:hover
+      +opacity(100)
+  .flex-active
+    +opacity(100)
+    cursor: default
+
+
+@media screen and (max-width: 860px)
+  .flex-direction-nav
+    .flex-prev
+      +opacity(100)
+      left: 10px
+    .flex-next
+      +opacity(100)
+      right: 10px

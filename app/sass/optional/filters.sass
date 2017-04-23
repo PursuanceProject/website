@@ -1,0 +1,164 @@
+.filter-aden:before, .filter-inkwell:before, .filter-perpetua:before, .filter-reyes:before, .filter-gingham:before, .filter-toaster:before, .filter-walden:before, .filter-hudson:before, .filter-earlybird:before, .filter-mayfair:before, .filter-lofi:before, .filter-1977:before, .filter-brooklyn:before, .filter-xpro2:before, .filter-nashville:before, .filter-lark:before, .filter-moon:before, .filter-aden:after, .filter-inkwell:after, .filter-perpetua:after, .filter-reyes:after, .filter-gingham:after, .filter-toaster:after, .filter-walden:after, .filter-hudson:after, .filter-earlybird:after, .filter-mayfair:after, .filter-lofi:after, .filter-1977:after, .filter-brooklyn:after, .filter-xpro2:after, .filter-nashville:after, .filter-lark:after, .filter-moon:after
+  content: ''
+  display: block
+  height: 100%
+  width: 100%
+  top: 0
+  left: 0
+  position: absolute
+  pointer-events: none
+
+.filter-aden, .filter-inkwell, .filter-perpetua, .filter-reyes, .filter-gingham, .filter-toaster, .filter-walden, .filter-hudson, .filter-earlybird, .filter-mayfair, .filter-lofi, .filter-1977, .filter-brooklyn, .filter-xpro2, .filter-nashville, .filter-lark, .filter-moon
+  position: relative
+
+.filter-aden img, .filter-inkwell img, .filter-perpetua img, .filter-reyes img, .filter-gingham img, .filter-toaster img, .filter-walden img, .filter-hudson img, .filter-earlybird img, .filter-mayfair img, .filter-lofi img, .filter-1977 img, .filter-brooklyn img, .filter-xpro2 img, .filter-nashville img, .filter-lark img, .filter-moon img
+  width: 100%
+  z-index: 1
+
+.filter-aden:before, .filter-inkwell:before, .filter-perpetua:before, .filter-reyes:before, .filter-gingham:before, .filter-toaster:before, .filter-walden:before, .filter-hudson:before, .filter-earlybird:before, .filter-mayfair:before, .filter-lofi:before, .filter-1977:before, .filter-brooklyn:before, .filter-xpro2:before, .filter-nashville:before, .filter-lark:before, .filter-moon:before
+  z-index: 2
+
+.filter-aden:after, .filter-inkwell:after, .filter-perpetua:after, .filter-reyes:after, .filter-gingham:after, .filter-toaster:after, .filter-walden:after, .filter-hudson:after, .filter-earlybird:after, .filter-mayfair:after, .filter-lofi:after, .filter-1977:after, .filter-brooklyn:after, .filter-xpro2:after, .filter-nashville:after, .filter-lark:after, .filter-moon:after
+  z-index: 3
+
+.filter-aden
+  -webkit-filter: hue-rotate(-20deg) contrast(0.9) saturate(0.85) brightness(1.2)
+  filter: hue-rotate(-20deg) contrast(0.9) saturate(0.85) brightness(1.2)
+  &:after
+    background: -webkit-linear-gradient(left, rgba(66, 10, 14, 0.2), transparent)
+    background: linear-gradient(to right, rgba(66, 10, 14, 0.2), transparent)
+    mix-blend-mode: darken
+
+.filter-inkwell
+  -webkit-filter: sepia(0.3) contrast(1.1) brightness(1.1) grayscale(1)
+  filter: sepia(0.3) contrast(1.1) brightness(1.1) grayscale(1)
+
+.filter-perpetua:after
+  background: -webkit-linear-gradient(top, #005b9a, #e6c13d)
+  background: linear-gradient(to bottom, #005b9a, #e6c13d)
+  mix-blend-mode: soft-light
+  opacity: .5
+
+.filter-reyes
+  -webkit-filter: sepia(0.22) brightness(1.1) contrast(0.85) saturate(0.75)
+  filter: sepia(0.22) brightness(1.1) contrast(0.85) saturate(0.75)
+  &:after
+    background: #efcdad
+    mix-blend-mode: soft-light
+    opacity: .5
+
+
+.filter-gingham
+  -webkit-filter: brightness(1.05) hue-rotate(-10deg)
+  filter: brightness(1.05) hue-rotate(-10deg)
+  &:after
+    background: -webkit-linear-gradient(left, rgba(66, 10, 14, 0.2), transparent)
+    background: linear-gradient(to right, rgba(66, 10, 14, 0.2), transparent)
+    mix-blend-mode: darken
+
+.filter-toaster
+  -webkit-filter: contrast(1.5) brightness(0.9)
+  filter: contrast(1.5) brightness(0.9)
+  &:after
+    background: -webkit-radial-gradient(circle, #804e0f, #3b003b)
+    background: radial-gradient(circle, #804e0f, #3b003b)
+    mix-blend-mode: screen
+
+.filter-walden
+  -webkit-filter: brightness(1.1) hue-rotate(-10deg) sepia(0.3) saturate(1.6)
+  filter: brightness(1.1) hue-rotate(-10deg) sepia(0.3) saturate(1.6)
+  &:after
+    background: #04c
+    mix-blend-mode: screen
+    opacity: .3
+
+
+.filter-hudson
+  -webkit-filter: brightness(1.2) contrast(0.9) saturate(1.1)
+  filter: brightness(1.2) contrast(0.9) saturate(1.1)
+  &:after
+    background: -webkit-radial-gradient(circle, #a6b1ff 50%, #342134)
+    background: radial-gradient(circle, #a6b1ff 50%, #342134)
+    mix-blend-mode: multiply
+    opacity: .5
+
+.filter-earlybird
+  -webkit-filter: contrast(0.9) sepia(0.2)
+  filter: contrast(0.9) sepia(0.2)
+  &:after
+    background: -webkit-radial-gradient(circle, #d0ba8e 20%, #360309 85%, #1d0210 100%)
+    background: radial-gradient(circle, #d0ba8e 20%, #360309 85%, #1d0210 100%)
+    mix-blend-mode: overlay
+
+.filter-mayfair
+  -webkit-filter: contrast(1.1) saturate(1.1)
+  filter: contrast(1.1) saturate(1.1)
+  &:after
+    background: -webkit-radial-gradient(40% 40%, circle, rgba(255, 255, 255, 0.8), rgba(255, 200, 200, 0.6), #111 60%)
+    background: radial-gradient(circle at 40% 40%, rgba(255, 255, 255, 0.8), rgba(255, 200, 200, 0.6), #111 60%)
+    mix-blend-mode: overlay
+    opacity: .4
+
+.filter-lofi
+  -webkit-filter: saturate(1.1) contrast(1.5)
+  filter: saturate(1.1) contrast(1.5)
+  &:after
+    background: -webkit-radial-gradient(circle, transparent 70%, #222 150%)
+    background: radial-gradient(circle, transparent 70%, #222 150%)
+    mix-blend-mode: multiply
+
+.filter-1977
+  -webkit-filter: contrast(1.1) brightness(1.1) saturate(1.3)
+  filter: contrast(1.1) brightness(1.1) saturate(1.3)
+  &:after
+    background: rgba(243, 106, 188, 0.3)
+    mix-blend-mode: screen
+
+.filter-brooklyn
+  -webkit-filter: contrast(0.9) brightness(1.1)
+  filter: contrast(0.9) brightness(1.1)
+  &:after
+    background: -webkit-radial-gradient(circle, rgba(168, 223, 193, 0.4) 70%, #c4b7c8)
+    background: radial-gradient(circle, rgba(168, 223, 193, 0.4) 70%, #c4b7c8)
+    mix-blend-mode: overlay
+
+.filter-xpro2
+  -webkit-filter: sepia(0.3)
+  filter: sepia(0.3)
+  &:after
+    background: -webkit-radial-gradient(circle, #E6E7E0 40%, rgba(43, 42, 161, 0.6) 110%)
+    background: radial-gradient(circle, #E6E7E0 40%, rgba(43, 42, 161, 0.6) 110%)
+    mix-blend-mode: color-burn
+
+.filter-nashville
+  -webkit-filter: sepia(0.2) contrast(1.2) brightness(1.05) saturate(1.2)
+  filter: sepia(0.2) contrast(1.2) brightness(1.05) saturate(1.2)
+  &::after
+    background: rgba(0, 70, 150, 0.4)
+    mix-blend-mode: lighten
+  &::before
+    background: rgba(247, 176, 153, 0.56)
+    mix-blend-mode: darken
+
+.filter-lark
+  -webkit-filter: contrast(0.9)
+  filter: contrast(0.9)
+  &:after
+    background: rgba(242, 242, 242, 0.8)
+    mix-blend-mode: darken
+  &:before
+    background: #22253f
+    mix-blend-mode: color-dodge
+
+
+.filter-moon
+  &:after
+    z-index: 3
+  -webkit-filter: grayscale(1) contrast(1.1) brightness(1.1)
+  filter: grayscale(1) contrast(1.1) brightness(1.1)
+  &:before
+    background: #a0a0a0
+    mix-blend-mode: soft-light
+  &:after
+    background: #383838
+    mix-blend-mode: lighten

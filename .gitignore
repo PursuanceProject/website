@@ -1,0 +1,62 @@
+
+# ignore SASS and Gulp caches
+
+node_modules
+.sass-cache
+bower_components
+jspm_packages
+*.log
+
+# Ignore passwords
+.secrets.json
+
+# ignore generated files
+
+dev
+dist
+testing
+.publish
+
+#ignore sublime projects
+
+.sublime-project
+.sublime-workspace
+
+# ignore Compiled source
+
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# ignore Packages
+# (git has its own built in compression methods)
+
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# ignore Logs and databases
+
+*.log
+*.sql
+*.sqlite
+
+# ignore OS generated files
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+profile
+

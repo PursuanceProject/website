@@ -1,0 +1,124 @@
+{
+  "users": [{
+    "name": {
+        "first": "Marion",
+        "last": "Harris"
+        },
+    "username": "marion",
+    "image": "1",
+    "gender": "male",
+    "email": "marion.harris15@example.com",
+    "address": "2229 priceton ave",
+    "phone": "(224) 555-106-6000"
+  }, {
+    "name": {
+        "first": "Yvonne",
+        "last": "Bishop"
+        },
+    "username": "yvlau",
+    "gender": "female",
+    "image": "1",
+    "email": "yvonne.bishop31@example.com",
+    "address": "3728 beechcrest rd",
+    "phone": "(849) 555-982-8276"
+  }, {
+    "name": {
+        "first": "Emily",
+        "last": "Cunningham"
+        },
+    "username": "sleepyme",
+    "gender": "female",
+    "image": "2",
+    "email": "emily.cunningham14@example.com",
+    "address": "8390 glendale st",
+    "phone": "(612) 555-790-6070"
+  }, {
+    "name": {
+        "first": "Luke",
+        "last": "Howell"
+        },
+    "username": "luke415",
+    "gender": "male",
+    "image": "2",
+    "email": "luke.howell71@example.com",
+    "address": "7655 maple rd",
+    "phone": "(448) 555-968-8168"
+  }, {
+    "name": {
+        "first": "Jim",
+        "last": "Evans"
+        },
+    "username": "paintball",
+    "gender": "male",
+    "image": "3",
+    "email": "jim.evans59@example.com",
+    "address": "8292 timber wolf trail",
+    "phone": "(520) 555-272-1907"
+  }, {
+    "name": {
+        "first": "Felicia",
+        "last": "Dean"
+        },
+    "username": "felicia23",
+    "gender": "female",
+    "image": "3",
+    "email": "felicia.dean42@example.com",
+    "address": "2417 paddington ct",
+    "phone": "(147) 555-912-7438"
+  }, {
+    "name": {
+        "first": "Greg",
+        "last": "Palmer"
+        },
+    "username": "palmer23",
+    "gender": "male",
+    "image": "4",
+    "email": "greg.palmer23@example.com",
+    "address": "6376 blossom hill rd",
+    "phone": "(998) 555-623-5595"
+  }, {
+    "name": {
+        "first": "Liam",
+        "last": "Bailey"
+        },
+    "username": "baileybail",
+    "gender": "male",
+    "image": "5",
+    "email": "liam.bailey18@example.com",
+    "address": "7991 w belt line rd",
+    "phone": "(712) 555-511-1922"
+  }, {
+    "name": {
+        "first": "Heidi",
+        "last": "Fields"
+        },
+    "username": "heidi_fields",
+    "gender": "female",
+    "image": "4",
+    "email": "heidi.fields52@example.com",
+    "address": "3554 w campbell ave",
+    "phone": "(409) 555-606-7385"
+  }, {
+    "name": {
+        "first": "Chris",
+        "last": "Terry"
+        },
+    "username": "terrible",
+    "gender": "male",
+    "image": "6",
+    "email": "chris.terry73@example.com",
+    "address": "1262 pine rd",
+    "phone": "(255) 555-759-6022"
+  }, {
+    "name": {
+        "first": "Natalie",
+        "last": "Larson"
+        },
+    "username": "osiris",
+    "gender": "female",
+    "image": "5",
+    "email": "natalie.larson93@example.com",
+    "address": "2425 pockrus page rd",
+    "phone": "(504) 555-112-1396"
+  }]
+}

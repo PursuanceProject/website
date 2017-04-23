@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="36px" height="36px" viewBox="0 0 36 36" enable-background="new 0 0 36 36" xml:space="preserve">
+<path fill="#FF0000" d="M18,23c-2.762,0-5-2.239-5-5c0-2.762,2.238-5,5-5c2.761,0,5,2.238,5,5C23,20.761,20.761,23,18,23z"/>
+<path fill="#FF0000" d="M0,5c-2.762,0-5-2.239-5-5c0-2.762,2.238-5,5-5c2.761,0,5,2.238,5,5C5,2.761,2.761,5,0,5z"/>
+<path fill="#FF0000" d="M0,41c-2.762,0-5-2.239-5-5c0-2.762,2.238-5,5-5c2.761,0,5,2.238,5,5C5,38.761,2.761,41,0,41z"/>
+<path fill="#FF0000" d="M36,5c-2.762,0-5-2.239-5-5c0-2.762,2.238-5,5-5c2.761,0,5,2.238,5,5C41,2.761,38.761,5,36,5z"/>
+<path fill="#FF0000" d="M36,41c-2.762,0-5-2.239-5-5c0-2.762,2.238-5,5-5c2.761,0,5,2.238,5,5C41,38.761,38.761,41,36,41z"/>
+<text transform="matrix(1 0 0 1 0 -7.2285)" font-family="'ArialMT'" font-size="12">dots-a</text>
+</svg>

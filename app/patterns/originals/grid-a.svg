@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="36px" height="36px" viewBox="0 0 36 36" enable-background="new 0 0 36 36" xml:space="preserve">
+<path fill="#FF0000" d="M18,26c-4.418,0-8-3.583-8-8c0-4.418,3.582-8,8-8c4.417,0,8,3.582,8,8C26,22.417,22.417,26,18,26z"/>
+<path fill="#FF0000" d="M0,8c-4.418,0-8-3.583-8-8c0-4.418,3.582-8,8-8c4.417,0,8,3.582,8,8C8,4.417,4.417,8,0,8z"/>
+<path fill="#FF0000" d="M0,44c-4.418,0-8-3.583-8-8c0-4.419,3.582-8,8-8c4.417,0,8,3.581,8,8C8,40.417,4.417,44,0,44z"/>
+<path fill="#FF0000" d="M36,8c-4.419,0-8-3.583-8-8c0-4.418,3.581-8,8-8c4.417,0,8,3.582,8,8C44,4.417,40.417,8,36,8z"/>
+<path fill="#FF0000" d="M36,44c-4.419,0-8-3.583-8-8c0-4.419,3.581-8,8-8c4.417,0,8,3.581,8,8C44,40.417,40.417,44,36,44z"/>
+<text transform="matrix(1 0 0 1 0 -7.2285)" font-family="'ArialMT'" font-size="12">grid-a</text>
+</svg>
