@@ -6162,6 +6162,7 @@ input, textarea, .select, html.touch .chosen-container {
   width: 100%;
   heighT: 40px;
   font-size: 15px;
+  color: #000;
   background-color: #FFF;
   border-radius: 2px;
   background-clip: padding-box;
