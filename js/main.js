@@ -11145,6 +11145,22 @@ window.Detectizr = (function(window, navigator, document, undefined) {
 }(this, this.navigator, this.document));
 
 
+$(function() {
+  $('[data-toggle="tooltip"]').tooltip();
+});
+$(function() {
+  $('[data-toggle="popover"]').popover();
+});
+$('body').on('click', function(e) {
+  $('[data-toggle="popover"]').each(function() {
+    //the 'is' for buttons that trigger popups
+    //the 'has' for icons within a button that triggers a popup
+    if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
+      $(this).popover('hide');
+    }
+  });
+});
+
 var config = {
   '.chosen-select': {},
   '.chosen-select-deselect': {allow_single_deselect: true},
