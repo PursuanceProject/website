@@ -6223,10 +6223,13 @@ textarea {
     src: url("../fonts/Akrobat-Thin.svg#Akrobat-Thin") format("svg"); } }
 
 .container {
-  width: 500px; }
-  @media screen and (max-width: 500px) {
+  width: 640px; }
+  @media screen and (max-width: 640px) {
     .container {
       width: 100%; } }
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+  }
 
 body {
   font-size: 25px;
