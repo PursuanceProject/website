@@ -8,7 +8,7 @@ $container: 500px
         width: 100%
 
 body
-    font-size: 25px
+    font-size: 20px
     padding: 20px 0
 
 $logo-ratio: 200/332
@@ -22,6 +22,8 @@ $logo-width: $logo-height * $logo-ratio
     background-size: $logo-width $logo-height
     padding-left: $logo-width + 10
     height: $logo-height
+    font-weight: bold
+    font-family: $font-title
     margin: 0 auto
     display: inline-block
     padding-top: ($logo-height / 2) - 35
@@ -40,7 +42,7 @@ $logo-width: $logo-height * $logo-ratio
         text-align: center
         padding-bottom: 20px
     input, textarea, select, .btn
-        font-size: 25px
+        font-size: 20px
         padding: 10px
         height: auto
         +radius(normal, 0)
@@ -53,6 +55,7 @@ $logo-width: $logo-height * $logo-ratio
         background-color: #eee
         width: 50%
         float: right
+        font-weight: bold
         +transition
         &:hover
             background-color: #FFF
@@ -71,7 +74,6 @@ $logo-width: $logo-height * $logo-ratio
 
 
 header.header
-    text-align: center
     &:after
         @extend %bars
         margin: 20px 0
@@ -80,7 +82,7 @@ header.header
     content: ""
     height: 20px
     display: block
-    +tile(lines-up-a, 10px, white, black, .1, 0)
+    +tile(lines-up-a, 10px, white, black, .3, 0)
 
 #mc_embed_signup
     &:before
