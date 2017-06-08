@@ -6209,9 +6209,7 @@ textarea {
   height: 150px; }
 
 @font-face {
-  font-family: Akrobat-Thin;
-  src: url("../fonts/Akrobat-Thin.eot");
-  src: url("../fonts/Akrobat-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/Akrobat-Thin.woff") format("woff"), url("../fonts/Akrobat-Thin.ttf") format("truetype"), url("../fonts/Akrobat-Thin.svg#Akrobat-Thin") format("svg");
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -6232,7 +6230,7 @@ textarea {
   }
 
 body {
-  font-size: 25px;
+  font-size: 20px;
   padding: 20px 0; }
 
 .logo {
