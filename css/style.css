@@ -6219,7 +6219,7 @@ textarea {
     src: url("../fonts/Akrobat-Thin.svg#Akrobat-Thin") format("svg"); } }
 
 .container {
-  width: 640px; }
+  width: 920px; }
   @media screen and (max-width: 640px) {
     .container {
       width: 100%; } }
@@ -6230,6 +6230,7 @@ textarea {
 body {
   font-size: 20px;
   padding: 20px 0; }
+
 
 .logo {
   background-image: url("../images/logo-pursuance.png");
