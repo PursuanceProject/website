@@ -6322,3 +6322,21 @@ header.header:after, #mc_embed_signup:before {
 
 #mc_embed_signup label {
   font-weight: normal; }
+
+#mc_embed_signup .mc-field-group.input-group ul {
+  margin: 0;
+  padding: 5px 0;
+  list-style: none;
+}
+
+#mc_embed_signup .mc-field-group.input-group ul li {
+  display: block;
+  padding: 3px 0;
+  margin: 0;
+}
+
+#mc_embed_signup .mc-field-group.input-group input {
+  display: inline;
+  width: auto;
+  border: none;
+}
