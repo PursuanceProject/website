@@ -6219,7 +6219,7 @@ textarea {
     src: url("../fonts/Akrobat-Thin.svg#Akrobat-Thin") format("svg"); } }
 
 .container {
-  width: 640px; }
+  width: 920px; }
   @media screen and (max-width: 640px) {
     .container {
       width: 100%; } }
@@ -6230,6 +6230,7 @@ textarea {
 body {
   font-size: 20px;
   padding: 20px 0; }
+
 
 .logo {
   background-image: url("../images/logo-pursuance.png");
@@ -6322,3 +6323,21 @@ header.header:after, #mc_embed_signup:before {
 
 #mc_embed_signup label {
   font-weight: normal; }
+
+#mc_embed_signup .mc-field-group.input-group ul {
+  margin: 0;
+  padding: 5px 0;
+  list-style: none;
+}
+
+#mc_embed_signup .mc-field-group.input-group ul li {
+  display: block;
+  padding: 3px 0;
+  margin: 0;
+}
+
+#mc_embed_signup .mc-field-group.input-group input {
+  display: inline;
+  width: auto;
+  border: none;
+}
