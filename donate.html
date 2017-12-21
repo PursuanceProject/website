@@ -3,38 +3,27 @@
 <head>
   <meta charset="UTF-8"/>
   <title>Pursuance</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css?ver=1501670093"/>
   <link rel="stylesheet" href="css/style.css?ver=1501670093"/>
   <meta name="viewport" content="width=device-width, user-scalable=no" />
-
-  <style>
-    #paypal-form {
-      display: initial;
-    }
-
-    #paypal-btn {
-      width: 147px;
-      height: inherit;
-      background: rgba(0,0,0,0);
-      border: none;
-    }
-  </style>
 </head>
 <body>
 
-<div class="container">
-  <header class="header">
-    <img src="images/logo-2-pursuance.jpg" />
-  </header>
+<div class="container header">
+  <div class="col-md-12">
+    <img id="banner" src="images/logo-2-pursuance.jpg" />
+  </div>
 </div>
 
 <div class="container">
-  <div class="description">
-    <h2>Donate to The Pursuance Project!</h2>
+  <div class="col-md-12">
+    <div class="description">
+      <h2>Donate to The Pursuance Project!</h2>
 
-    <hr />
+      <hr />
 
-    <div class="col-md-6" id="paypal">
-      Paypal:
+
+      <h4>Paypal:</h4>
       <br>
       <form id="paypal-form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
         <input type="hidden" name="cmd" value="_s-xclick">
@@ -45,8 +34,10 @@
       </form>
     </div>
 
-    <div class="col-md-6">
-      Bitcoin: <strong>1DCr5ZvHkGUvDbVbZYGoN7DuJDjF9CEBaN</strong>
+
+      <br />
+      <h4>Bitcoin:</h4>
+      <strong>1DCr5ZvHkGUvDbVbZYGoN7DuJDjF9CEBaN</strong>
     </div>
   </div>
 </div>
