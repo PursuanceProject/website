@@ -170,3 +170,13 @@ img#banner {
 .team .row {
   margin-bottom: 30px;
 }
+
+.team img {
+  display: block;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.person {
+  padding-bottom: 50px;
+}
