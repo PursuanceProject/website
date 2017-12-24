@@ -54,6 +54,7 @@ img {
 
 .header h1, .header b {
   text-align: center;
+  display: block;
 }
 
 #mc_embed_signup h1, #mc_embed_signup h2, #mc_embed_signup h3, #mc_embed_signup h4 {
@@ -160,4 +161,12 @@ img {
 img#banner {
   text-align: center;
   margin: 0 auto;
+}
+
+.team h1 {
+  text-align: center;
+}
+
+.team .row {
+  margin-bottom: 30px;
 }
