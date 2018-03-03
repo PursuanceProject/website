@@ -56,6 +56,14 @@ img {
   text-align: center;
 }
 
+a.nav-link {
+  background-color: #212121;
+}
+
+a.nav-link:hover {
+  background-color: #216ba5;
+}
+
 #mc_embed_signup h1, #mc_embed_signup h2, #mc_embed_signup h3, #mc_embed_signup h4 {
   font-size: 40px;
   text-align: center;
