@@ -70,7 +70,7 @@ ul {
 ul li {
   list-style: none;
   display: inline-block;
-  padding: 10px;
+  padding: 20px;
 }
 
 ul li:hover{
@@ -79,6 +79,7 @@ ul li:hover{
 
 ul li a{
   color: #ddd;
+  font-size: 20px;
 }
 
 ul li a:hover{
@@ -93,6 +94,13 @@ ul li a:hover{
   box-sizing: border-box;
   color: #fff;
   font-size: 30px;
+  display: none;
+}
+
+@media (max-width: 768px){
+  .toggle{
+    display: block;
+  }
 }
 
 a.nav-link {
