@@ -78,6 +78,10 @@ ul li:hover{
 }
 
 ul li a{
+  color: #ddd;
+}
+
+ul li a:hover{
   color: #fff;
 }
 
