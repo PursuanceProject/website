@@ -199,3 +199,8 @@ img#banner {
 .person {
   padding-bottom: 50px;
 }
+
+.media a {
+  text-decoration: underline;
+  font-style: italic;
+}
