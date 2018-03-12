@@ -83,6 +83,7 @@ ul li a{
 
 ul li a:hover{
   color: #fff;
+  text-decoration: none;
 }
 
 a.nav-link {
