@@ -13,7 +13,7 @@
   <div class="navbar">
     <nav>
       <div class="toggle">
-        <i class="fa fa-bars"></i>
+        <i class="fa fa-bars menu"></i>
       </div>
       <ul>
         <li><a href="#what">What is Pursuance?</li>
@@ -249,7 +249,11 @@
   </div>
   <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
   <script type="text/javascript">
-    
+    $(document).ready(function(){
+      $('.menu').click(function(){
+        $('ul').toggleClass('active');
+      })
+    })
   </script>
 </body>
 </html>

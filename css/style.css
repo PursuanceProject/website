@@ -106,11 +106,16 @@ ul li a:hover {
 
 ul {
   width: 100%;
+  display: none;
 }
 
 ul li {
   display: block;
   text-align: center;
+}
+
+.active{
+  display: block;
 }
 
 a.nav-link {
