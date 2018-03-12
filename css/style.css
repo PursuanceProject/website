@@ -56,6 +56,11 @@ img {
   text-align: center;
 }
 
+nav {
+  width: 100%;
+  background: #216ba5;
+}
+
 a.nav-link {
   background-color: #212121;
 }
