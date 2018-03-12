@@ -102,16 +102,14 @@ ul li a:hover {
   .toggle{
     display: block;
   }
-}
-
-ul {
-  width: 100%;
-  display: none;
-}
-
-ul li {
-  display: block;
-  text-align: center;
+  ul {
+    width: 100%;
+    display: none;
+  }
+  ul li {
+    display: block;
+    text-align: center;
+  }
 }
 
 .active{
