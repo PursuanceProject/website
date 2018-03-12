@@ -61,6 +61,17 @@ nav {
   background: #216ba5;
 }
 
+ul {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+}
+
 a.nav-link {
   background-color: #212121;
 }
