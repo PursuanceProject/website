@@ -73,6 +73,14 @@ ul li {
   padding: 10px;
 }
 
+ul li:hover{
+  background: #59b1f7;
+}
+
+ul li a{
+  color: #fff;
+}
+
 a.nav-link {
   background-color: #212121;
 }
