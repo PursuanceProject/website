@@ -63,7 +63,7 @@ img.center {
 
 nav {
   width: 100%;
-  background: #216ba5;
+  background: #3f1f72;
 }
 
 ul {
@@ -75,20 +75,22 @@ ul {
 ul li {
   list-style: none;
   display: inline-block;
-  padding: 20px;
+  padding: 0px;
 }
 
 ul li:hover {
-  background: #59b1f7;
+  background: #7146b5;
 }
 
 ul li a {
   color: #ddd;
   font-size: 20px;
+  padding: 20px;
+  display: block;
 }
 
 ul li a:hover {
-  color: #fff;
+  color: #ddd;
   text-decoration: none;
 }
 
@@ -97,7 +99,7 @@ ul li a:hover {
   padding: 10px 20px;
   text-align: left;
   box-sizing: border-box;
-  background-color: #1c5a8c;
+  background-color: #3f1f72;
   color: #fff;
   font-size: 30px;
   display: none;
