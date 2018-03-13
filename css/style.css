@@ -21,6 +21,11 @@ img {
   height: auto;
 }
 
+img.center {
+    display: block;
+    margin: 0 auto;
+}
+
 .logo {
   background-image: url("../images/logo-pursuance.png");
   background-repeat: no-repeat;
