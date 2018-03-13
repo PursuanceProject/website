@@ -70,7 +70,7 @@ ul {
 ul li {
   list-style: none;
   display: inline-block;
-  padding: 20px;
+  padding: 0px;
 }
 
 ul li:hover {
@@ -80,6 +80,8 @@ ul li:hover {
 ul li a {
   color: #ddd;
   font-size: 20px;
+  padding: 20px;
+  display: block;
 }
 
 ul li a:hover {
