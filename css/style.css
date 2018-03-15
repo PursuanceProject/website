@@ -114,6 +114,14 @@ ul li a:hover {
   }
 }
 
+.social{
+  font-size: 30px;
+  width: 30%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
 .active{
   display: block;
 }
