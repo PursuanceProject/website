@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include "partials/head.html" %}
+<body>
+<div class="container">
+      <header class="header">
+      <a class="logo" href="{{project.url}}">{{project.title}}</a>
+
+  </header>
+</div>
+  {% block content %}
+  {% endblock %}
+  <script src="js/main.js"></script>
+</body>
+</html>

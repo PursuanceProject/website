@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Akrobat-Thin";
+    src: url("Akrobat-Thin.eot");
+    src: url("Akrobat-Thin.eot?#iefix") format("embedded-opentype"),
+         url("Akrobat-Thin.woff2") format("woff2"),
+         url("Akrobat-Thin.woff") format("woff"),
+         url("Akrobat-Thin.ttf") format("ttf"),
+         url("Akrobat-Thin.svg#Akrobat-Thin") format("svg");
+    font-style: normal;
+    font-weight: 100;
+}
