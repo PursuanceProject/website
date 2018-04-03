@@ -34,3 +34,14 @@ ul.foot{
 li.foot{
     display: inline-block;
 }
+
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 150px;
+  overflow: auto;
+}
+.flex-center p {
+  margin: 0;
+}
