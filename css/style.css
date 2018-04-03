@@ -8,39 +8,8 @@ a.pursuance-logo {
     width: 50px;
     height: 50px;
     display: block;
-<<<<<<< HEAD
-    text-align: center;
-  }
-}
-
-.social{
-  font-size: 30px;
-  width: 30%;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-}
-
-.active{
-  display: block;
-}
-
-a.nav-link {
-  background-color: #212121;
-}
-
-a.nav-link:hover {
-  background-color: #216ba5;
-}
-
-#mc_embed_signup h1, #mc_embed_signup h2, #mc_embed_signup h3, #mc_embed_signup h4 {
-  font-size: 40px;
-  text-align: center;
-  padding-bottom: 20px;
-=======
     background-image: url("../images/circlelogo.svg") !important;
     background-size: contain;
->>>>>>> 3573dc25b33958694cb9ff2875b235c815eb46cf
 }
 
 .fa {
