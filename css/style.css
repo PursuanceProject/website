@@ -39,7 +39,6 @@ li.foot{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 150px;
   overflow: auto;
 }
 .flex-center p {
@@ -62,4 +61,105 @@ section:last-child:after {
 
 section:last-child {
   padding-bottom: 100px;
+}
+
+#mc_embed_signup h1, #mc_embed_signup h2, #mc_embed_signup h3, #mc_embed_signup h4 {
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#mc_embed_signup input, #mc_embed_signup textarea, #mc_embed_signup select, #mc_embed_signup .btn {
+  font-size: 20px;
+  padding: 10px;
+  height: auto;
+  border-radius: 0;
+  background-clip: padding-box;
+  border: solid 1px #999;
+}
+
+#mc_embed_signup input.placeholder, #mc_embed_signup textarea.placeholder, #mc_embed_signup select.placeholder, #mc_embed_signup .btn.placeholder {
+  color: #999;
+}
+
+#mc_embed_signup input::-webkit-input-placeholder, #mc_embed_signup textarea::-webkit-input-placeholder, #mc_embed_signup select::-webkit-input-placeholder, #mc_embed_signup .btn::-webkit-input-placeholder {
+  color: #999;
+}
+
+#mc_embed_signup input:-moz-placeholder, #mc_embed_signup textarea:-moz-placeholder, #mc_embed_signup select:-moz-placeholder, #mc_embed_signup .btn:-moz-placeholder {
+  color: #999;
+}
+
+#mc_embed_signup input::-moz-placeholder, #mc_embed_signup textarea::-moz-placeholder, #mc_embed_signup select::-moz-placeholder, #mc_embed_signup .btn::-moz-placeholder {
+  color: #999;
+}
+
+#mc_embed_signup input:-ms-input-placeholder, #mc_embed_signup textarea:-ms-input-placeholder, #mc_embed_signup select:-ms-input-placeholder, #mc_embed_signup .btn:-ms-input-placeholder {
+  color: #999;
+}
+
+#mc_embed_signup textarea {
+  height: 150px;
+}
+
+#mc_embed_signup .btn {
+  background-color: #eee;
+  width: 50%;
+  float: right;
+  transition: all 300ms ease-out !important;
+}
+
+#mc_embed_signup .btn:hover {
+  background-color: #FFF;
+}
+
+#mc_embed_signup div.mce_inline_error, #mc_embed_signup .response {
+  background-color: transparent !important;
+  position: relative;
+  z-index: 1;
+  background-size: 10px;
+  background-color: none;
+  background-image: url("data:image/svg+xml,%3C?xml%20version%3D%271.0%27%20encoding%3D%27utf-8%27?%3E%0A%3C!--%20Generator%3A%20Adobe%20Illustrator%2016.0.0%2C%20SVG%20Export%20Plug-In%20.%20SVG%20Version%3A%206.00%20Build%200)%20%20--%3E%0A%3C!DOCTYPE%20svg%20PUBLIC%20%27-//W3C//DTD%20SVG%201.1//EN%27%20%27http%3A//www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd%27%3E%0A%3Csvg%20version%3D%271.1%27%20id%3D%27Layer_1%27%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20xmlns%3Axlink%3D%27http%3A//www.w3.org/1999/xlink%27%20x%3D%270px%27%20y%3D%270px%27%0A  %20width%3D%2712px%27%20height%3D%2712px%27%20viewBox%3D%270%200%2012%2012%27%20enable-background%3D%27new%200%200%2012%2012%27%20xml%3Aspace%3D%27preserve%27%3E%0A%3Cpolygon%20fill%3D%27rgba(0, 0, 0, 0.1)%27%20points%3D%2712%2C12%2012%2C11.293%2011.293%2C12%20%27/%3E%0A%3Cpolygon%20fill%3D%27rgba(0, 0, 0, 0.1)%27%20points%3D%270.707%2C0%200%2C0%200%2C0.707%20%27/%3E%0A%3Cpolygon%20fill%3D%27rgba(0, 0, 0, 0.1)%27%20points%3D%270.707%2C0%200%2C0%200%2C0.707%20%27/%3E%0A%3Cpolygon%20fill%3D%27rgba(0, 0, 0, 0.1)%27%20points%3D%270.707%2C12%200%2C12%200%2C11.293%2011.293%2C0%2012%2C0%2012%2C0.707%20%27/%3E%0A%3Cpolygon%20fill%3D%27rgba(255, 255, 255, 0)%27%20points%3D%270%2C11.293%2011.293%2C0%200.707%2C0%200%2C0.707%20%27/%3E%0A%3Cpolygon%20fill%3D%27rgba(255, 255, 255, 0)%27%20points%3D%270.707%2C12%2012%2C0.707%2012%2C11.293%2011.293%2C12%20%27/%3E%0A%3C/svg%3E");
+  padding: 15px !important;
+  height: auto;
+  line-height: 25px;
+  color: #333 !important;
+  font-weight: normal !important;
+  margin: -10px 0 10px 0 !important;
+  font-size: 20px;
+}
+
+#mc_embed_signup div.mce_inline_error:hover, #mc_embed_signup .response:hover {
+  background-position: 10px 10px !important;
+}
+
+#mc_embed_signup:before {
+  margin: 20px 0 30px 0;
+}
+
+#mc_embed_signup label {
+  font-weight: normal;
+}
+
+#mc_embed_signup .mc-field-group ul {
+  margin: 0;
+  padding: 5px 0;
+  list-style: none;
+}
+
+#mc_embed_signup .mc-field-group ul li {
+  display: block;
+  padding: 3px 0;
+  margin: 0;
+}
+
+#mc_embed_signup .mc-field-group input {
+  display: inline;
+  width: 100%;
+  margin-bottom: 10px;
+  border: none;
+}
+
+#mc_embed_signup #mc-embedded-subscribe {
+  color: #0f0f0f;
 }
