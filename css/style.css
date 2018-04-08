@@ -16,10 +16,12 @@ a.pursuance-logo {
     background: #222;
     color: white;
     padding: 10px;
-    font-size: 25px;
-    text-align: center;
-    text-decoration: none;
     border-radius: 50%;
+}
+
+.logos {
+  height: 36px;
+  width: 36px; 
 }
 
 i.fa:hover {
