@@ -5,18 +5,18 @@
 }
 
 a.pursuance-logo {
-    width: 50px;
-    height: 50px;
-    display: block;
-    background-image: url("../images/circlelogo.svg") !important;
-    background-size: contain;
+  width: 50px;
+  height: 50px;
+  display: block;
+  background-image: url("../images/circlelogo.svg") !important;
+  background-size: contain;
 }
 
 .fa {
-    background: #222;
-    color: white;
-    padding: 10px;
-    border-radius: 50%;
+  background: #222;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
 }
 
 .logos {
@@ -25,16 +25,16 @@ a.pursuance-logo {
 }
 
 i.fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 ul.foot{
-    flex-direction: row;
-    display: inline;
+  flex-direction: row;
+  display: inline;
 }
 
 li.foot{
-    display: inline-block;
+  display: inline-block;
 }
 
 .flex-center {
