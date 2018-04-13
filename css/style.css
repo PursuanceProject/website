@@ -13,14 +13,7 @@ a.pursuance-logo {
 }
 
 .fa {
-    background: #222;
-    color: white;
     padding: 10px;
-    font-size: 25px;
-    text-align: center;
-    margin: auto;
-    text-decoration: none;
-    border-radius: 50%;
 }
 
 i.fa:hover {
@@ -40,8 +33,9 @@ li.foot{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  overflow: auto;
+  align-items: center;
 }
+
 .flex-center p {
   margin: 0;
 }
@@ -163,6 +157,7 @@ section:last-child {
 
 #mc_embed_signup #mc-embedded-subscribe {
   color: #0f0f0f;
+  margin-left: 8px;
 }
 
 .portfolio {
@@ -234,5 +229,34 @@ section:last-child {
   }
   .portfolio-modal .portfolio-modal-dialog h2 {
     font-size: 3rem;
+  }
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+a:hover {
+  color: #ccc;
+  text-decoration: underline;
+}
+
+nav, footer {
+  color: #fff;
+  background-color: #000;
+}
+
+.hamburger {
+  color: #fff;
+  background: none;
+  border: none;
+}
+
+@media (min-width: 800px) {
+  .hamburger {
+    display: none;
   }
 }
