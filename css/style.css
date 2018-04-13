@@ -222,6 +222,10 @@ section:last-child {
   line-height: 38px;
 }
 
+.lh2 {
+  line-height: 2
+}
+
 .portfolio-modal .portfolio-modal-dialog h2 {
   font-size: 2rem;
 }
