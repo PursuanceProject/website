@@ -17,9 +17,8 @@
     <link href="css/scrolling-nav.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
-    <!-- Custom fonts and icons -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <!-- Custom fonts -->
+    <link href="css/roboto.css" rel="stylesheet">
 
   </head>
 
@@ -29,8 +28,8 @@
     <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
       <div class="container">
         <a href="index.html" class="pursuance-logo"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="hamburger" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+          <span class="fa fa-reorder"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
@@ -48,7 +47,7 @@
       </div>
     </nav>
 
-    <header class="bg-sna text-white">
+    <header class="bg-black text-white">
       <div class="container">
         <h1>Pursuance</h1>
         <p class="lead">Impactful, agile, secure civic collaboration</p>
@@ -63,14 +62,14 @@
             <div class="container">
               <div class="row pb-4">
                 <div class="col-md">
-                  <img src="images/1-join.svg" style="width:300px;height:200px;">
+                  <img src="images/1-joinB.svg" style="width:300px;height:200px;">
                 </div>
-                <div class="col-md flex-center">
-                  <p>Individuals and/or existing organizations form or join a “pursuance,” a process-oriented group structured by a highly customizable framework for collaboration, to work toward a common goal.</p>
+                <div class="col-md lh2 flex-center">
+                  <p>Individuals and/or existing organizations form or join a “pursuance,” a process-oriented group structured by a highly customizable collaboration framework.</p>
                 </div>
               </div>
               <div class="row pb-4">
-                <div class="col-md flex-center text-right">
+                <div class="col-md flex-center lh2 text-right">
                   <p>Pursuances combine both task management and discussion functionality, allowing new members to quickly get up to speed and enabling productive collaboration throughout a team.
                 </div>
                 <div class="col-md">
@@ -79,9 +78,9 @@
               </div>
               <div class="row pb-4">
                 <div class="col-md">
-                  <img src="https://via.placeholder.com/300x200"  style="width:300px;height:200px;">
+                  <img src="images/3-collaborateb.svg" style="width:300px;height:200px;">
                 </div>
-                <div class="col-md flex-center">
+                <div class="col-md lh2 flex-center">
                   <p>Pursuances can interact with each other, cooperating on shared goals or assigning tasks to one another.</p>
                 </div>
               </div>
@@ -90,7 +89,7 @@
         </div>
       </div>
     </section>
-    
+
     <section id="who">
       <div class="container">
         <div class="row">
@@ -99,15 +98,15 @@
             <div class="container">
               <div class="row">
                 <div class="col-sm text-center">
-                  <img src="images/A-activists.svg" style="width:160px;height:300px;">
+                  <img src="images/A-activistsb.svg" style="width:200px;height:200px;">
                   <p></br>Independent activists can organize quickly and effectively.</p>
                 </div>
                 <div class="col-sm text-center">
-                  <img src="https://via.placeholder.com/160x300">
+                  <img src="images/B-NGOs.svg" style="width:200px;height:200px;">
                   <p></br>Nonprofits and charities can engage more meaningfully with volunteers.</p>
                 </div>
                 <div class="col-sm text-center">
-                  <img src="https://via.placeholder.com/160x300">
+                  <img src="images/C-journalists.svg" style="width:200px;height:200px;">
                   <p></br>Journalists and researchers can collaborate on major stories and projects.</p>
                 </div>
               </div>
@@ -122,9 +121,9 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2>Pursuance is still in development.</h2>
+              <h2>Pursuance is currently being developed!</h2>
               <p class="lead">To receive updates on the platform and learn more about how to get involved, sign up for our mailing list here.</p>
-              <p>A brief note: we use MailChimp for our mailing list. We do so for numerous practical reasons, including not landing in most listers' spam folders. If you are uncomfortable with providing your personal information to MailChimp, contact us directly instead.</p>
+              <p class="small">A brief note: we use MailChimp for our mailing list. We do so for numerous practical reasons, including not landing in most listers' spam folders. If you are uncomfortable adding your email address to our MailChimp mailing list, please contact us directly instead.</p>
                 <!-- Begin MailChimp Signup Form -->
               <div id="mc_embed_signup">
                 <form action="https://twitter.us15.list-manage.com/subscribe/post?u=0bc58cfb12bee1ab9397dbea2&amp;id=0f185c84db" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -142,7 +141,7 @@
                     <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn"></div>
                   </div>
                 </form>
-                <h6>(Note: Privacy Badger breaks this form! If you're using the Privacy Badger browser extension,
+                <h6 class="small">(Note: Privacy Badger breaks this form! If you're using the Privacy Badger browser extension,
                 please disable it momentarily in order to subscribe.)</h6>
               </div>
               <!--End mc_embed_signup-->
@@ -155,27 +154,29 @@
     <!-- Footer -->
     <footer class="py-3">
       <div class="container navbar-expand-lg">
-        <div class="row mx-auto">
-          <div class="col-md-8 flex-center">
+        <div class="row">
+          <div class="col-sm-6 flex-center">
             <p>Copyright © Pursuance 2018</p>
           </div>
-          <div class="col-md-2 mr-1">
+          <div class="col-sm-6 pr-3">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item pr-3">
-                <a class="js-scroll-trigger" href="https://twitter.com/PursuanceProj"><i class="fa fa-twitter fa-md"></i></a>
+              <li class="nav-item pr-3 align-self-center">
+                <a class="js-scroll-trigger" href="https://twitter.com/PursuanceProj"><img src="images/twitter.svg" style="width:25px;height:25px;"></a>
               </li>
-              <li class="nav-item pr-3">
-                <a class="js-scroll-trigger" href="https://github.com/PursuanceProject/pursuance"><i class="fa fa-github fa-lg"></i></a>
+              <li class="nav-item pr-3 align-self-center">
+                <a class="js-scroll-trigger" href="https://github.com/PursuanceProject/pursuance"><img src="images/github.svg" style="width:25px;height:25px;"></a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="donate.html">Donate</a>
+              <li class="nav-item pr-3 align-self-center">
+                <a href="mailto:team@pursuanceproject.org" class="nav-link">Contact</a>
+              </li>
+              <li class="nav-item pr-3 align-self-center">
+                <a class="nav-link" href="donate.html">Donate</a>
               </li>
             </ul>
           </div>
         </div>
       </div>
     </footer>
-    <!-- /.container -->
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
