@@ -271,6 +271,7 @@ nav, footer {
 @media screen and (max-width: 767px) {
   ul,
   p,
+  h1,
   h2 {
     text-align: center;
   }
@@ -290,7 +291,7 @@ nav, footer {
   }
   ul.playnice {
     flex-direction: row;
-    padding-left: 5rem;
+    padding-left: 1.3rem;
   }
 }
 
