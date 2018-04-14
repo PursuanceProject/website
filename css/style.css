@@ -288,10 +288,8 @@ nav, footer {
   .child2 {
     display: table-header-group;
   }
-  .navbar-nav {
+  ul.playnice {
     flex-direction: row;
-  }
-  ul.navbar-nav.ml-auto {
     padding-left: 5rem;
   }
 }
