@@ -17,9 +17,8 @@
     <link href="css/scrolling-nav.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
-    <!-- Custom fonts and icons -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <!-- Custom fonts -->
+    <link href="css/roboto.css" rel="stylesheet">
 
   </head>
 
@@ -29,8 +28,8 @@
     <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
       <div class="container">
         <a href="splash-index.html" class="pursuance-logo"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="hamburger" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+          <span class="fa fa-reorder"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
@@ -42,45 +41,53 @@
       </div>
     </nav>
 
-    <header class="bg-sna text-white">
+    <header class="bg-black text-white">
       <div class="container">
         <h1>Donate to the Pursuance Project</h1>
       </div>
     </header>
 
-    <section id="donate">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <p>One of the most important ways you can support the Pursuance Project is by donating money. (We’re a nonprofit, we’re all doing this because we care, etc etc). Your donation will help us to build Pursuance more quickly, (secure servers on which our platform will run), (etc). Every bit counts - all donations are appreciated.</p>
+    <div class="content-wrapper">
+      <section id="donate">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <p>The Pursuance Project is a nonprofit organization dedicated to producing open-source software that everybody can use. Your donation will help us to build the Pursuance System and maintain the platform. Every bit counts - all donations are appreciated.</p></br></br></br>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="container">
-        <div class="col-md-12">
-          <div class="description" style="text-align: center;">
-            <h4><strong>Use Paypal</strong></h4>
-            <form id="paypal-form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-              <input type="hidden" name="cmd" value="_s-xclick">
-              <input type="hidden" name="hosted_button_id" value="KGVXE55FSK9KQ">
-
-              <input id="paypal-btn" type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-              <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-            </form>
-
-            <h4><strong>Use Coinbase</strong></h4>
-            <h6>(or send from your Bitcoin wallet directly)</h6>
-            <a class="donate-with-crypto"
-               href="https://commerce.coinbase.com/checkout/60d533aa-2126-4955-9f5f-fa9c9329c85a">
-              <span><strong>Donate</strong></span>
-            </a>
-            <script src="https://commerce.coinbase.com/v1/checkout.js">
-            </script>
+        <div class="row col-lg-10 mx-auto">
+          <div class="col-md-4 offset-md-1 position-static">
+            <div class="container">
+              <div class="description" style="text-align: center;">
+                <h4><strong>Use Paypal</strong></h4>
+                <form id="paypal-form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                  <input type="hidden" name="cmd" value="_s-xclick">
+                  <input type="hidden" name="hosted_button_id" value="KGVXE55FSK9KQ">
+                  <input id="paypal-btn" type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"></br></br>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 offset-md-1 position-static">
+            <div class="container">
+              <div class="description" style="text-align: center;">
+                <h4><strong>Use Coinbase</strong></h4>
+                <a class="donate-with-crypto"
+                   href="https://commerce.coinbase.com/checkout/60d533aa-2126-4955-9f5f-fa9c9329c85a">
+                  <span><strong>Donate</strong></span>
+                </a>
+                <script src="https://commerce.coinbase.com/v1/checkout.js">
+                </script>
+                <h6>(or send from your Bitcoin wallet directly)</h6></br></br>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
 
     <!-- Footer -->
     <footer class="py-3">
@@ -92,10 +99,10 @@
           <div class="col-sm-6 pr-3">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item pr-3 align-self-center">
-                <a class="js-scroll-trigger" href="https://twitter.com/PursuanceProj"><i class="fa fa-twitter fa-lg"></i></a>
+                <a class="js-scroll-trigger" href="https://twitter.com/PursuanceProj"><img src="images/twitter.svg" style="width:25px;height:25px;"></a>
               </li>
               <li class="nav-item pr-3 align-self-center">
-                <a class="js-scroll-trigger" href="https://github.com/PursuanceProject/pursuance"><i class="fa fa-github fa-lg"></i></a>
+                <a class="js-scroll-trigger" href="https://github.com/PursuanceProject/pursuance"><img src="images/github.svg" style="width:25px;height:25px;"></a>
               </li>
               <li class="nav-item pr-3 align-self-center">
                 <a href="mailto:team@pursuanceproject.org" class="nav-link">Contact</a>

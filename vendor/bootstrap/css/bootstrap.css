@@ -6089,6 +6089,10 @@ button.bg-primary:focus {
   background-color: #6c757d !important;
 }
 
+.bg-black {
+  background-color: #000000 !important;
+}
+
 .bg-sna {
   background-image: url("sna_black.png") !important;
 }
