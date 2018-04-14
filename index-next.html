@@ -25,22 +25,25 @@
   <body id="page-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
       <div class="container">
         <a href="index.html" class="pursuance-logo"></a>
-        <button class="hamburger navbar-toggler-icon" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <button class="hamburger" type="button" data-toggle="collapse" data-target="#navbarResponsive">
           <span class="fa fa-reorder"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#what">About</a>
+              <a class="nav-link js-scroll-trigger" href="about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#who">Who benefits</a>
+              <a class="nav-link js-scroll-trigger" href="team.html">Team</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#getinvolved">Get involved</a>
+              <a class="nav-link js-scroll-trigger" href="media.html">Media</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="donate.html">Donate</a>
             </li>
           </ul>
         </div>
@@ -117,7 +120,7 @@
     </section>
 
     <div class="content-wrapper">
-      <section id="getinvolved">
+      <section id="mail-list">
         <div class="container">
           <div class="row">
             <div class="col-lg-8 mx-auto">
@@ -177,6 +180,48 @@
         </div>
       </div>
     </footer>
+
+    <!--Modal open-->
+    <div class="modal" id="creative" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" style="text-align:left" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h3 class="modal-title" style="color:#D3D3D3">Contact Us</h3>
+          </div>
+          <div class="modal-body">
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                <input class="form-control" id="name" type="name" placeholder="name" required="required" data-validation-required-message="Please enter your name (or a handle, if you prefer).">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                <input class="form-control" id="email" type="email" placeholder="email address" required="required" data-validation-required-message="Please enter your email - we need a way to respond!">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group controls mb-0 pb-2">
+                <textarea class="form-control" id="message" rows=5 type="message" placeholder="message" required="required" data-validation-required-message="Please enter your message.">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <br>
+            <div id="success"></div>
+            <div class="form-group">
+              <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+          <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+      </div>
+    </div>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
