@@ -258,7 +258,6 @@ nav, footer {
 }
 
 .hamburger {
-  color: #fff;
   background: none;
   border: none;
 }
@@ -269,7 +268,8 @@ nav, footer {
   }
 }
 
-@media screen and (max-width: 767.98px) {
+@media screen and (max-width: 767px) {
+  ul,
   p,
   h2 {
     text-align: center;
@@ -280,7 +280,7 @@ nav, footer {
     margin-right: auto;
   }
   .parent {
-  display: table;
+    display: table;
   }
   .child1 {
     display: table-footer-group;
@@ -294,4 +294,20 @@ nav, footer {
   ul.navbar-nav.ml-auto {
     padding-left: 5rem;
   }
+}
+
+a.nav-link {
+  color: #fff;
+}
+
+.navbar-dark .navbar-toggler-icon svg {
+  stroke-color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
