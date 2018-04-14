@@ -264,3 +264,24 @@ nav, footer {
     display: none;
   }
 }
+
+@media screen and (max-width: 767.98px) {
+  p,
+  h2 {
+    text-align: center;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .parent {
+  display: table;
+  }
+  .child1 {
+    display: table-footer-group;
+  }
+  .child2 {
+    display: table-header-group;
+  }
+}
