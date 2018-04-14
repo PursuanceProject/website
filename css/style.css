@@ -1,142 +1,67 @@
-@charset "UTF-8";
-
-body {
-  color: #ddd;
-  background-color: #0f0f0f;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color: #ddd;
-}
-
-p {
-  font-size: 20px;
-  padding: 20px 0;
-  color: #ddd;
-}
-
-img {
+.team img {
   display: block;
-  max-width: 100%;
-  height: auto;
+  max-width: 200px;
+  max-height: 200px;
 }
 
-img.center {
+a.pursuance-logo {
+    width: 50px;
+    height: 50px;
     display: block;
-    margin: 0 auto;
+    background-image: url("../images/circlelogo.svg") !important;
+    background-size: contain;
 }
 
-.logo {
-  background-image: url("../images/logo-pursuance.png");
-  background-repeat: no-repeat;
-  font-size: 45px;
-  background-size: 120.48193px 200px;
-  padding-left: 130.48193px;
-  height: 200px;
-  margin: 0 auto;
-  display: inline-block;
-  padding-top: 65px;
-  pointer-events: none;
-  cursor: default;
-  transition: all 300ms ease-out !important;
-  background-position: 0 0px;
+.fa {
+    background: #222;
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    border-radius: 50%;
 }
 
-.logo:hover {
-  transition: all 300ms ease-out !important;
-  text-decoration: none;
-  background-position: 5px 0;
-  color: #ccc;
+i.fa:hover {
+    opacity: 0.7;
 }
 
-.header {
-  margin-top: 20px;
+ul.foot{
+    flex-direction: row;
+    display: inline;
 }
 
-.header h1 a {
-  color: #ddd;
+li.foot{
+    display: inline-block;
 }
 
-.header h1, .header b {
-  text-align: center;
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: auto;
+}
+.flex-center p {
+  margin: 0;
 }
 
-nav {
-  width: 100%;
-  background: #3f1f72;
-}
-
-ul {
-  width: 80%;
-  margin: 0 auto;
-  padding: 0;
-}
-
-ul li {
-  list-style: none;
-  display: inline-block;
-  padding: 0px;
-}
-
-ul li:hover {
-  background: #7146b5;
-}
-
-ul li a {
-  color: #ddd;
-  font-size: 20px;
-  padding: 20px;
+section:after {
+  content: "";
+  width: 50px;
+  height: 3px;
+  border-radius: 3px;
+  background: #000000;
   display: block;
+  margin: 80px auto 0 auto;
 }
 
-ul li a:hover {
-  color: #ddd;
-  text-decoration: none;
-}
-
-.toggle {
-  width: 100%;
-  padding: 10px 20px;
-  text-align: left;
-  box-sizing: border-box;
-  background-color: #3f1f72;
-  color: #fff;
-  font-size: 30px;
+section:last-child:after {
   display: none;
 }
 
-@media (max-width: 768px){
-  .toggle{
-    display: block;
-  }
-  ul {
-    width: 100%;
-    display: none;
-  }
-  ul li {
-    display: block;
-    text-align: center;
-  }
-}
-
-.social{
-  font-size: 30px;
-  width: 30%;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-}
-
-.active{
-  display: block;
-}
-
-a.nav-link {
-  background-color: #212121;
-}
-
-a.nav-link:hover {
-  background-color: #216ba5;
+section:last-child {
+  padding-bottom: 100px;
 }
 
 #mc_embed_signup h1, #mc_embed_signup h2, #mc_embed_signup h3, #mc_embed_signup h4 {
@@ -146,7 +71,7 @@ a.nav-link:hover {
 }
 
 #mc_embed_signup input, #mc_embed_signup textarea, #mc_embed_signup select, #mc_embed_signup .btn {
-  font-size: 25px;
+  font-size: 20px;
   padding: 10px;
   height: auto;
   border-radius: 0;
@@ -240,54 +165,78 @@ a.nav-link:hover {
   color: #0f0f0f;
 }
 
-img#banner {
-  text-align: center;
-  margin: 0 auto;
+.portfolio {
+  margin-bottom: -15px;
 }
 
-.video-container {
+.portfolio .portfolio-item {
   position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 30px;
-  height: 0;
-  overflow: hidden;
-}
-
-.video-container iframe, .video-container object, .video-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.team .row {
-  margin-bottom: 30px;
-}
-
-.team img {
   display: block;
-  max-width: 300px;
-  max-height: 300px;
+  max-width: 25rem;
+  margin-bottom: 15px;
 }
 
-.person {
-  padding-bottom: 50px;
+.portfolio .portfolio-item .portfolio-item-caption {
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  opacity: 0;
+  background-color: rgba(24, 188, 156, 0.9);
 }
 
-.media a {
-  text-decoration: underline;
-  font-style: italic;
+.portfolio .portfolio-item .portfolio-item-caption:hover {
+  opacity: 1;
 }
 
-a[href^="mailto:"] {
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-  -ms-word-break: break-all;
-  word-break: break-all;
-  word-break: break-word;
-  -ms-hyphens: auto;
-  -moz-hyphens: auto;
-  -webkit-hyphens: auto;
-  hyphens: auto;
+.portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
+  font-size: 1.5rem;
+}
+
+@media (min-width: 576px) {
+  .portfolio {
+    margin-bottom: -30px;
+  }
+  .portfolio .portfolio-item {
+    margin-bottom: 30px;
+  }
+}
+
+.portfolio-modal .portfolio-modal-dialog {
+  padding: 3rem 1rem;
+  min-height: calc(100vh - 2rem);
+  margin: 1rem calc(1rem - 8px);
+  position: relative;
+  z-index: 2;
+  -moz-box-shadow: 0 0 3rem 1rem rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 3rem 1rem rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 3rem 1rem rgba(0, 0, 0, 0.5);
+}
+
+.portfolio-modal .portfolio-modal-dialog .close-button {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+
+.portfolio-modal .portfolio-modal-dialog .close-button i {
+  line-height: 38px;
+}
+
+.lh2 {
+  line-height: 2
+}
+
+.portfolio-modal .portfolio-modal-dialog h2 {
+  font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+  .portfolio-modal .portfolio-modal-dialog {
+    min-height: 100vh;
+    padding: 5rem;
+    margin: 3rem calc(3rem - 8px);
+  }
+  .portfolio-modal .portfolio-modal-dialog h2 {
+    font-size: 3rem;
+  }
 }
