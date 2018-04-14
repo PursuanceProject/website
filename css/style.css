@@ -58,6 +58,10 @@ section:last-child {
   padding-bottom: 100px;
 }
 
+h2 {
+  margin-top: .5rem;
+}
+
 #mc_embed_signup h1, #mc_embed_signup h2, #mc_embed_signup h3, #mc_embed_signup h4 {
   font-size: 40px;
   text-align: center;
@@ -283,5 +287,11 @@ nav, footer {
   }
   .child2 {
     display: table-header-group;
+  }
+  .navbar-nav {
+    flex-direction: row;
+  }
+  ul.navbar-nav.ml-auto {
+    padding-left: 5rem;
   }
 }
