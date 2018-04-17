@@ -326,3 +326,27 @@ a.nav-link {
 .navbar-dark .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
+
+h5.name {
+  margin-top: 1em;
+  text-align: center;
+}
+
+h5.boardname {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+p.title {
+  text-align: center;
+  font-size: 11pt;
+  margin-bottom: 20px;
+}
+
+div.profile {
+  margin-left: 4%;
+}
+div.profile:first-child {
+  margin-left: 8.3333333%;
+}
