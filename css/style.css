@@ -60,16 +60,18 @@ section:last-child {
 
 h2 {
   margin-top: .5rem;
+  margin-bottom: 1.5rem;
 }
 
 #mc_embed_signup h1, #mc_embed_signup h2, #mc_embed_signup h3, #mc_embed_signup h4 {
-  font-size: 40px;
+  font-size: 34px;
   text-align: center;
   padding-bottom: 20px;
+  padding-left: 15px;
 }
 
 #mc_embed_signup input, #mc_embed_signup textarea, #mc_embed_signup select, #mc_embed_signup .btn {
-  font-size: 20px;
+  font-size: 16px;
   padding: 10px;
   height: auto;
   border-radius: 0;
@@ -103,7 +105,9 @@ h2 {
 
 #mc_embed_signup .btn {
   background-color: #eee;
-  width: 50%;
+  width: 25%;
+  border-radius: 10px;
+  margin-right: 1%;
   float: right;
   transition: all 300ms ease-out !important;
 }
@@ -154,9 +158,11 @@ h2 {
 
 #mc_embed_signup .mc-field-group input {
   display: inline;
-  width: 100%;
+  width: 99%;
+  margin-right: .5%;
   margin-bottom: 10px;
   border: none;
+  border-radius: 5px;
 }
 
 #mc_embed_signup #mc-embedded-subscribe {
@@ -347,6 +353,22 @@ p.title {
 div.profile {
   margin-left: 4%;
 }
+
 div.profile:first-child {
   margin-left: 8.3333333%;
+}
+
+button.subscribe {
+  align-self: center;
+  border-radius: 3px;
+  background-color: #F75400;
+  margin-bottom: 10px;
+  font-size: 14pt;
+  margin-left: 50%;
+}
+
+.note {
+  font-size: 80%;
+  font-weight: 400;
+  color: #323232;
 }

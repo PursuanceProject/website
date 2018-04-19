@@ -4973,7 +4973,6 @@ tbody.collapse.show {
   position: absolute;
   top: 0;
   right: 0;
-  padding: 0.75rem 1.25rem;
   color: inherit;
 }
 
@@ -5491,7 +5490,7 @@ button.close {
   align-items: flex-start;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between;
+  justify-content: flex-start;
   padding: 1rem;
   border-bottom: 1px solid #e9ecef;
   border-top-left-radius: 0.3rem;
@@ -5500,12 +5499,13 @@ button.close {
 
 .modal-header .close {
   padding: 1rem;
-  margin: -1rem -1rem -1rem auto;
+  margin: -1rem -1rem -1rem;
 }
 
 .modal-title {
   margin-bottom: 0;
   line-height: 1.5;
+  color: #444;
 }
 
 .modal-body {
