@@ -372,3 +372,12 @@ button.subscribe {
   font-weight: 400;
   color: #323232;
 }
+
+.coverage-logos div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px 20px;
+}
