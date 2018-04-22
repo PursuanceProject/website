@@ -12,14 +12,17 @@ a.pursuance-logo {
   background-size: contain;
 }
 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .fa {
   background: #222;
   color: white;
-  padding: 10px;
+  padding-top: 10px;
+  padding-left: 9px;
   border-radius: 50%;
-}
-
-.logos {
   height: 36px;
   width: 36px; 
 }
