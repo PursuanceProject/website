@@ -360,11 +360,13 @@ div.profile:first-child {
 
 button.subscribe {
   align-self: center;
-  border-radius: 3px;
+  border-radius: 5px;
   background-color: #F75400;
   margin-bottom: 10px;
+  margin-top: 100px;
   font-size: 14pt;
-  margin-left: 50%;
+  margin-left: 190px;
+  position: absolute;
 }
 
 .note {
@@ -380,4 +382,35 @@ button.subscribe {
   align-items: center;
   background-color: white;
   padding: 10px 20px;
+}
+
+.bg-colorsplash {
+  background-image: url("../images/pursuance-banner1.png") !important;
+  background-size: cover;
+  height: 400px;
+  background-position: -100px;
+}
+
+@media screen and (max-width: 600px) {
+  .bg-colorsplash {
+    height: 350px;
+    background-position: -75px;
+  }
+  button.subscribe {
+    margin-left: 22%;
+    margin-right: 22%;
+    margin-top: 75px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+
+  .bg-colorsplash {
+    height: 315px;
+    background-position: -140px 25px;
+  }
+  button.subscribe {
+    margin-left: 10%;
+    margin-right: 5%;
+  }
 }
