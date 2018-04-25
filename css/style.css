@@ -367,6 +367,7 @@ button.subscribe {
   font-size: 14pt;
   margin-left: 190px;
   position: absolute;
+  box-shadow: 5px 7px rgba(8, 8, 8, 0.5)
 }
 
 .note {
@@ -382,6 +383,7 @@ button.subscribe {
   align-items: center;
   background-color: white;
   padding: 10px 20px;
+  filter: grayscale(100%)
 }
 
 .bg-colorsplash {
