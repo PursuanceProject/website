@@ -1,6 +1,6 @@
 # Pursuance Project website
 
-This is a proposed redesign of [the Pursuance Project website](https://pursuanceproject.org). The purpose is to present the Pursuance Project in a way that's engaging and easy to understand - we're using the project pages for other open-source projects like [Signal](https://signal.org) and [IPFS](https://ipfs.io) as reference points.
+This is a proposed redesign of [the Pursuance Project website](https://pursuanceproject.org). The purpose is to present the Pursuance Project in a way that's engaging and easy to understand - we're using the project pages for other open-source projects like [Signal](https://signal.org), [Hypothesis](https://hypothes.is), and [IPFS](https://ipfs.io) as reference points.
 
 We're working from [this Figma mockup](https://www.figma.com/file/MU8wUkNchAwVxMlZfYDzPdyC/PursuanceProject-Index?node-id=6%3A2).
 
