@@ -111,10 +111,6 @@ h2 {
   transition: all 300ms ease-out !important;
 }
 
-#mc_embed_signup .btn:hover {
-  background-color: #FFF;
-}
-
 #mc_embed_signup div.mce_inline_error, #mc_embed_signup .response {
   background-color: transparent !important;
   position: relative;
