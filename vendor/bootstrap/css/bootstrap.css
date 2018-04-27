@@ -8833,11 +8833,11 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #4082bf !important;
+  color: #33a6d5 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #4082bf !important;
+  color: #33a6d5 !important;
 }
 
 .text-secondary {
