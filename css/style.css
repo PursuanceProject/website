@@ -403,7 +403,7 @@ button.subscribe-bottom:hover {
 }
 
 .bg-colorsplash {
-  background-image: url("../images/pursuance-banner1.png") !important;
+  background-image: url("../images/PursuanceBanners.gif") !important;
   background-size: cover;
   height: 400px;
   background-position: -100px;
@@ -431,4 +431,37 @@ button.subscribe-bottom:hover {
     margin-left: 10%;
     margin-right: 5%;
   }
+}
+
+.faqHeader {
+  font-size: 20px;
+  margin: 20px;
+}
+
+.panel-heading [data-toggle="collapse"]:after {
+  content: '\0394'; /* using Delta character  */
+  float: right;
+  color: #F58723;
+  font-size: 30px;
+  line-height: 22px;
+  /* rotate Delta character rightside up */
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.panel-heading [data-toggle="collapse"]:hover  {
+  text-decoration: none;
+  color: rgb(17, 205, 238);
+}
+
+.panel-heading [data-toggle="collapse"].collapsed:after {
+  /* rotate Delta character upside down */
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+  color: #fff;
 }

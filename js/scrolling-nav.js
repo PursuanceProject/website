@@ -26,4 +26,10 @@
     offset: 54
   });
 
+  // Accordion Panel Collapse
+  var $accordion = $('#accordion');
+  $accordion.on('show.bs.collapse', '.collapse', function() {
+    $accordion.find('.collapse').collapse('hide');
+  });
+
 })(jQuery); // End of use strict
