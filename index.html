@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
 
-    <title>Home - The Pursuance Project</title>
+    <title>The Pursuance Project</title>
 
 
     <meta charset="utf-8">
@@ -19,7 +19,7 @@
     <meta property="og:image:secure_url" content="https://pursuanceproject.org/images/pursuance-banner_some.png" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:description" content="Pursuance is a secure, open source collaboration tools for activists, journalists, and nonprofits." />
-    <meta name="twitter:title" content="Home - The Pursuance Project" />
+    <meta name="twitter:title" content="The Pursuance Project" />
     <meta name="twitter:image" content="https://pursuanceproject.org/images/pursuance-banner_some.png" />
     <meta name="twitter:site" content="@PursuanceProj" />
     <meta name="twitter:creator" content="@PursuanceProj" />
@@ -66,7 +66,7 @@
     </nav>
 
     <header class="bg-colorsplash">
-      <button class="subscribe btn-lg" data-toggle="modal" data-target="#mc_embed_signup">Subscribe to our mailing list here!</button>
+      <a class="subscribe btn-lg" href="#subscribe">Subscribe to our mailing list here!</a>
     </header>
 
     <section id="what">
@@ -149,9 +149,34 @@
                   <p><br />Want other ways to get involved? There are other ways to support Pursuance:</p>
                   <h4>Donate to Pursuance!</h4>
                   <p>The Pursuance Project is a nonprofit organization of dedicated volunteers - it needs your financial support. <a class="text-primary" href="donate.html">Every bit helps!</a></p>
-                  <h4>Join our Mailing List!</h4>
+                  <h4>Join our Mailing List Below!</h4>
                   <p>Our monthly mails include updates on the platform's development and ways to get involved.</p>
-                  <button class="subscribe-bottom btn-lg" data-toggle="modal" data-target="#mc_embed_signup">Subscribe to our mailing list here!</button>
+                  <!-- Begin MailChimp Signup Form -->
+                  <div id="subscribe">
+                    <div id="mc_embed_signup">
+                      <h3>Sign up for our mailing list</h3>
+                      <div class="modal-body">
+                        <form action="https://twitter.us15.list-manage.com/subscribe/post?u=0bc58cfb12bee1ab9397dbea2&amp;id=0f185c84db" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                          <div id="mc_embed_signup_scroll">
+                            <div class="mc-field-group">
+                              <input type="email" placeholder="Your Email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                              <input type="text" placeholder="Optional: Link to Your PGP Public Key or Keybase Account" value="" name="PGPKEY" class="" id="mce-PGPKEY">
+                            </div>
+                            <div id="mce-responses" class="clear">
+                              <div class="response" id="mce-error-response" style="display:none"></div>
+                              <div class="response" id="mce-success-response" style="display:none"></div>
+                            </div>
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0bc58cfb12bee1ab9397dbea2_0f185c84db" tabindex="-1" value=""></div>
+                          </div>
+                          <p class="">(Note 1: Privacy Badger breaks this form! If you're using the Privacy Badger browser extension, please disable it momentarily in order to subscribe.)</p>
+                          <p class="">(Note 2: For practical reasons, we use MailChimp for our mailing list. If you are uncomfortable providing your email address to a third party, please <a class="text-primary" href="mailto:team@pursuanceproject.org">contact us directly</a> instead.)</p>
+                          <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-success">
+                        </div>
+                      </form>
+                      <!-- /.modal-content -->
+                    </div>
+                    <!--End mc_embed_signup-->
+                  </div>
                 </div>
               </div>
             </div>
@@ -189,41 +214,6 @@
         </div>
       </div>
     </footer>
-
-    <!-- Begin MailChimp Signup Form -->
-    <div class="modal" id="mc_embed_signup" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" style="text-align:left" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h3 class="modal-title">Sign up for our mailing list</h3>
-          </div>
-          <div class="modal-body">
-            <form action="https://twitter.us15.list-manage.com/subscribe/post?u=0bc58cfb12bee1ab9397dbea2&amp;id=0f185c84db" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-              <div id="mc_embed_signup_scroll">
-                <div class="mc-field-group">
-                  <input type="email" placeholder="Your Email" value="" name="EMAIL" class="required email" id="mce-EMAIL" autofocus>
-                  <input type="text" placeholder="Optional: Link to Your PGP Public Key or Keybase Account" value="" name="PGPKEY" class="" id="mce-PGPKEY">
-                </div>
-                <div id="mce-responses" class="clear">
-                  <div class="response" id="mce-error-response" style="display:none"></div>
-                  <div class="response" id="mce-success-response" style="display:none"></div>
-                </div>
-                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0bc58cfb12bee1ab9397dbea2_0f185c84db" tabindex="-1" value=""></div>
-              </div>
-              <p class="note">(Note 1: Privacy Badger breaks this form! If you're using the Privacy Badger browser extension, please disable it momentarily in order to subscribe.)</p>
-              <p class="note">(Note 2: For practical reasons, we use MailChimp for our mailing list. If you are uncomfortable providing your email address to a third party, please <a class="text-primary" href="mailto:team@pursuanceproject.org">contact us directly</a> instead.)</p>
-            </div>
-            <div class="modal-footer">
-              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-success">
-            </div>
-          </form>
-          <!-- /.modal-content -->
-        </div>
-        <!-- /.modal-dialog -->
-      </div>
-    </div>
-    <!--End mc_embed_signup-->
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
