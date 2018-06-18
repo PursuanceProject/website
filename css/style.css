@@ -428,3 +428,13 @@ div.profile:first-child {
     margin-right: 5%;
   }
 }
+
+#kickstarter-announce {
+  text-align: center;
+  background-color: blue;
+  padding: 15px 20px 12px 20px;
+}
+
+#kickstarter-announce a {
+  text-decoration: underline;
+}
