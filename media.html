@@ -60,9 +60,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-10 mx-auto">
-            <div class="row col-lg-10 mx-auto">
               <h2 align="center">Coverage</h2></br>
-            </div>
             <div class="row col-lg-10 mx-auto coverage-logos">
               <div class="position-static"><a href="https://observer.com/2017/09/barrett-brown-pursuance-project-youtube/"><img src="images/media/observer.svg" style="width:305px;height:45px;"></a></div>
               <div class="position-static"><a href="https://motherboard.vice.com/en_us/article/gyynwm/barrett-brown-what-is-to-be-done"><img src="images/media/motherboard.svg" style="width:50px;height:50px;"></a></div>
@@ -74,29 +72,59 @@
         </div>
       </div>
     </section>
-    <div class="content-wrapper">
-      <section id="videos">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 align="center">Videos</h2>
-              <h3 class="pb-2">Barrett's First YouTube AMA/Q&amp;A Session on Pursuance</h3>
-              <div class="video-container pb-5">
-                <iframe width="560" height="315" class="embed-responsive" src="https://www.youtube-nocookie.com/embed/SOoPyovqk2Q?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>
-              </div>
-              <h3 class="pb-2">Pursuance Explanation Series, Part One: The Basics of a Pursuance</h3>
-              <div class="video-container pb-5">
-                <iframe width="560" height="315" class="embed-responsive" src="https://www.youtube-nocookie.com/embed/RRFHo4zhOK8" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>
-              </div>
-              <h3 class="pb-2">Pursuance Explanation Series, Part Two: NGOs, Non-Profits, and Other Institutions</h3>
-              <div class="video-container">
-                <iframe width="560" height="315" class="embed-responsive" src="https://www.youtube-nocookie.com/embed/itb17vG2GIU" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>
+
+    <!-- videos -->
+    <section id="videos">
+      <div class="container">
+        <h2 align="center">Videos</h2>
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <!--Video Carousel -->
+            <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+              <!--Indicators -->
+              <ol class="carousel-indicators">
+                  <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel" data-slide-to="1"></li>
+                  <li data-target="#carousel" data-slide-to="2"></li>
+              </ol>
+              <!-- Slides -->
+              <div class="carousel-inner" role="listbox">
+                <!-- First slide -->
+                <div class="carousel-item active">
+                  <h3 class="pb-2">Barrett's First YouTube AMA/Q&A Session on Pursuance</h3>
+                  <div class="video-container pb-5">
+                    <iframe width="560" height="315" class="embed-responsive" src="https://www.youtube-nocookie.com/embed/SOoPyovqk2Q?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>
+                  </div>
+                </div>
+                <!--Second slide-->
+                <div class="carousel-item">
+                    <h3 class="pb-2">Pursuance Explanation Series, Part One: The Basics of a Pursuance</h3>
+                    <div class="video-container pb-5">
+                      <iframe width="560" height="315" class="embed-responsive" src="https://www.youtube-nocookie.com/embed/RRFHo4zhOK8" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+                <!--Third slide-->
+                <div class="carousel-item">
+                    <h3 class="pb-2">Pursuance Explanation Series, Part Two: NGOs, Non-Profits, and Other Institutions</h3>
+                    <div class="video-container pb-5">
+                      <iframe width="560" height="315" class="embed-responsive" src="https://www.youtube-nocookie.com/embed/itb17vG2GIU" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+                <!--Controls-->
+                <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
               </div>
             </div>
           </div>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
 
     <!-- Footer -->
     <footer class="py-3">
